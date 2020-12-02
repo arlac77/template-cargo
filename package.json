@@ -1,0 +1,24 @@
+{
+  "template": {
+    "inheritFrom": [
+    ],
+    "mergers": [
+      {
+        "type": "Skip",
+        "pattern": "package.json"
+      },
+      {
+        "type": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+          ]
+        }
+      },
+      {
+        "type": "ReplaceIfEmpty",
+        "pattern": "**/*"
+      }
+    ]
+  }
+}
