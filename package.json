@@ -1,7 +1,6 @@
 {
   "template": {
-    "inheritFrom": [
-    ],
+    "inheritFrom": [],
     "mergers": [
       {
         "type": "Skip",
@@ -11,8 +10,7 @@
         "type": "Readme",
         "pattern": "README.md",
         "options": {
-          "badges": [
-          ]
+          "badges": []
         }
       },
       {
